@@ -1,4 +1,13 @@
+
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  <a routerLink="/login">Login</a>
+  <a routerLink="/detail/3"> DETAIL </a> <br/>
+  
 </p>
+<button (click) = "detail()">DETAIL2</button> <br/>
+<button (click)="LOGIN()">Login</button>
+
+<router-outlet>
+
+</router-outlet>
